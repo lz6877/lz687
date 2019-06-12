@@ -1,0 +1,162 @@
+1558361880384	geckodriver	INFO	Listening on 127.0.0.1:36328
+1558361883481	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.jACkLaQ6pxxb
+1558361883517	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558361883579	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36336
+1558361889564	Marionette	INFO	Listening on port 36336
+1558361891923	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558361927939	Marionette	INFO	New connections will no longer be accepted
+[Child 41876] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1558361932626	geckodriver	INFO	Listening on 127.0.0.1:36388
+1558361935666	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.58qkBSsX4AnY
+1558361935701	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558361935742	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36396
+1558361943214	Marionette	INFO	Listening on port 36396
+1558361944779	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558361960636	Marionette	INFO	New connections will no longer be accepted
+[Child 41332] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1558362777725	geckodriver	INFO	Listening on 127.0.0.1:36563
+1558362780928	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.1ugAEim2fiRF
+1558362780970	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558362781037	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36571
+1558362787656	Marionette	INFO	Listening on port 36571
+1558362790116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558362823565	Marionette	INFO	New connections will no longer be accepted
+[Child 37548] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1558362824074	geckodriver	INFO	Listening on 127.0.0.1:36629
+1558362827086	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.PXCdAB55kVAs
+1558362827126	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558362827171	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36637
+1558362831759	Marionette	INFO	Listening on port 36637
+1558362834082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558362851357	Marionette	INFO	New connections will no longer be accepted
+[Child 40964] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE40003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1558363892834	geckodriver	INFO	Listening on 127.0.0.1:36811
+1558363896085	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.aeR52m0YiK4r
+1558363896141	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558363896212	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36820
+1558363902346	Marionette	INFO	Listening on port 36820
+1558363905049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558363942842	Marionette	INFO	New connections will no longer be accepted
+[Child 40164] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1558363944287	geckodriver	INFO	Listening on 127.0.0.1:36872
+1558363946741	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.acg1necotywp
+1558363946794	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558363946911	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36880
+1558363960214	Marionette	INFO	Listening on port 36880
+1558363963281	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558364010094	Marionette	INFO	New connections will no longer be accepted
+[Child 41444] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1558442352487	geckodriver	INFO	Listening on 127.0.0.1:25657
+1558442355539	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.x9YnoDRwL6h1
+1558442355574	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558442355670	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25666
+1558442367737	Marionette	INFO	Listening on port 25666
+1558442370087	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558442479709	Marionette	INFO	New connections will no longer be accepted
+[Child 48928] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+r D:\ Firefox52\firefox.exe with args []
+1558442405615	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25707
+1558442411136	Marionette	INFO	Listening on port 25707
+1558442416934	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 55720] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1558442591518	geckodriver	INFO	Listening on 127.0.0.1:25787
+1558442594575	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.lPwHp37838Ph
+1558442594607	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1558442594658	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25795
+1558442598657	Marionette	INFO	Listening on port 25795
+1558442600479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558442626334	Marionette	INFO	New connections will no longer be accepted
+[Child 56008] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+r D:\ Firefox52\firefox.exe with args []
+1558442606644	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25822
+1558442610984	Marionette	INFO	Listening on port 25822
+1558442612513	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 3197: TypeError: this.tabs is undefined
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    SessionFileInternal.write@resource://app/modules/sessionstore/SessionFile.jsm:315:29
+this.SessionFile.write@resource://app/modules/sessionstore/SessionFile.jsm:76:12
+SessionSaverInternal._writeState@resource://app/modules/sessionstore/SessionSaver.jsm:259:12
+SessionSaverInternal._saveState@resource://app/modules/sessionstore/SessionSaver.jsm:230:12
+SessionSaverInternal._saveStateAsync@resource://app/modules/sessionstore/SessionSaver.jsm:243:5
+SessionSaverInternal.runDelayed/this._timeoutID<@resource://app/modules/sessionstore/SessionSaver.jsm:147:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+le.jsm:315:29
+this.SessionFile.write@resource://app/modules/sessionstore/SessionFile.jsm:76:12
+SessionSaverInternal._writeState@resource://app/modules/sessionstore/SessionSaver.jsm:259:12
+SessionSaverInternal._saveState@resource://app/modules/sessionstore/SessionSaver.jsm:230:12
+SessionSaverInternal._saveStateAsync@resource://app/modules/sessionstore/SessionSaver.jsm:243:5
+SessionSaverInternal.runDelayed/this._timeoutID<@resource://app/modules/sessionstore/SessionSaver.jsm:147:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
