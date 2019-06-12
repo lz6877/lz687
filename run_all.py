@@ -1,8 +1,8 @@
 # import unittest
-# from selenium_html_report.common import HTMLTestRunner_cn
+# from lz687_auto.common import HTMLTestRunner_cn
 #
 # #用例路径
-# casePath = "D:\PycharmProjects\WebDriver\selenium_html_report\case"
+# casePath = "D:\Program Files\Github\lz687_auto\case"
 # rule = "test*.py"
 # discover = unittest.defaultTestLoader.discover(start_dir=casePath, pattern=rule)
 # print(discover)
@@ -18,7 +18,14 @@
 
 
 import unittest
-from selenium_html_report.common import HTMLTestRunner_cn
+
+import sys
+import os
+current_path = os.path.dirname(os.path.abspath(__file__))  #获取当前run_all.py的绝对路径
+sys.path.append("D:\Program Files\Github\lz687_auto")
+print(sys.path)
+from lz687_auto.common import HTMLTestRunner_cn
+
 
 #用例路径
 casePath = "D:\PycharmProjects\WebDriver\selenium_html_report\case"
