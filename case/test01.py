@@ -2,7 +2,7 @@ import time
 import unittest
 from selenium import webdriver
 
-from selenium_html_report.common.loginfunc import loginFunction
+from common.loginfunc import loginFunction
 
 class LoginTest(unittest.TestCase):
 

@@ -14,7 +14,7 @@ class Logintest(unittest.TestCase):
 
     def get_login_userName(self):
         try:
-            t = self.driver.find_element_by_xpath("//*[@id='userNav']/li/a/span[1]").text
+            t = self.driver.find_element_by_class_name("user-name").text
             print(t)
             return t
         except:
@@ -48,11 +48,11 @@ class Logintest(unittest.TestCase):
 
         self.driver.find_element_by_id("account").send_keys("admin1")
         self.driver.find_element_by_name("password").send_keys("hyl@qq.com1")
-        time.sleep(2)
         self.driver.find_element_by_id("submit").click()
+        time.sleep(2)
+        self.is_alert_exist()
         t = self.get_login_userName()
-        print("获取失败的用户名：", t)
-        self.assertTrue(1 == 2)
+        print("用户名或密码错误！！！")
 
     def tearDown(self):
         self.is_alert_exist()

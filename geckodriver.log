@@ -20,8 +20,8 @@ A coding exception was thrown and uncaught in a Task.
 Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
-iver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
-1560341260191	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5418
+[Child 12612] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+
 1560341266928	Marionette	INFO	Listening on port 5418
 1560341269422	Marionette	WARN	TLS certificate errors will be ignored for this session
 1560341384123	Marionette	INFO	New connections will no longer be accepted
@@ -36,3 +36,442 @@ A coding exception was thrown and uncaught in a Task.
 Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    SessionFileInternal.write@resource://app/modules/sessionstore/SessionFile.jsm:315:29
+this.SessionFile.write@resource://app/modules/sessionstore/SessionFile.jsm:76:12
+SessionSaverInternal._writeState@resource://app/modules/sessionstore/SessionSaver.jsm:259:12
+SessionSaverInternal._saveState@resource://app/modules/sessionstore/SessionSaver.jsm:230:12
+SessionSaverInternal._saveStateAsync@resource://app/modules/sessionstore/SessionSaver.jsm:243:5
+SessionSaverInternal.runDelayed/this._timeoutID<@resource://app/modules/sessionstore/SessionSaver.jsm:147:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+72651	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.dehi6nLqcQKv
+1560344572695	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560344572922	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52450
+1560344629326	Marionette	INFO	Listening on port 52450
+1560344634618	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/listener.js, line 1108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+1560345217036	geckodriver	INFO	Listening on 127.0.0.1:52853
+1560345220243	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.IXPg6tlbK8pa
+1560345220312	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560345220370	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52863
+1560345234906	Marionette	INFO	Listening on port 52863
+1560345239246	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/listener.js, line 1108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+1560346022985	geckodriver	INFO	Listening on 127.0.0.1:53174
+1560346026253	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.a3UZOhHWL0EF
+1560346026296	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560346026348	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53193
+1560346036316	Marionette	INFO	Listening on port 53193
+1560346040012	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/listener.js, line 1108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+1560347320075	geckodriver	INFO	Listening on 127.0.0.1:54136
+1560347323121	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.XhYMvPkxx9WE
+1560347323165	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560347323210	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54148
+1560347333311	Marionette	INFO	Listening on port 54148
+1560347335785	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1560347460016	geckodriver	INFO	Listening on 127.0.0.1:54332
+1560347462989	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.PqGHD81CQAn3
+1560347463018	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560347463050	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54342
+1560347466643	Marionette	INFO	Listening on port 54342
+1560347468180	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/listener.js, line 1108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1560348328939	geckodriver	INFO	Listening on 127.0.0.1:55531
+1560348332053	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.jfQf5Ld1df1y
+1560348332081	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560348332110	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55548
+1560348335572	Marionette	INFO	Listening on port 55548
+1560348337114	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 44: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x46001E,name=PContent::Msg_DataStoragePut) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1560348460250	geckodriver	INFO	Listening on 127.0.0.1:55693
+1560348463312	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.d26Mr7YgNJjp
+1560348463401	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560348463450	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55707
+1560348467733	Marionette	INFO	Listening on port 55707
+1560348470446	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1560348542196	geckodriver	INFO	Listening on 127.0.0.1:55782
+1560348545282	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.ekg1LnTsxAeh
+1560348545313	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560348545346	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55790
+1560348548178	Marionette	INFO	Listening on port 55790
+1560348549874	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560348567294	Marionette	INFO	New connections will no longer be accepted
+[Child 9460] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560348567589	geckodriver	INFO	Listening on 127.0.0.1:55843
+1560348570631	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.TeFwxB0CnCqI
+1560348570662	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560348570696	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55853
+1560348573633	Marionette	INFO	Listening on port 55853
+1560348575182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560348589385	Marionette	INFO	New connections will no longer be accepted
+[Child 14380] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560348842674	geckodriver	INFO	Listening on 127.0.0.1:56265
+1560348845824	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.llXpJGWjxPrT
+1560348845853	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560348845882	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56273
+1560348849159	Marionette	INFO	Listening on port 56273
+1560348850844	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x46001C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 44: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+1560349297856	geckodriver	INFO	Listening on 127.0.0.1:56466
+1560349300838	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.CKcBNYQ6c1OC
+1560349300869	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560349300915	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56475
+1560349306940	Marionette	INFO	Listening on port 56475
+1560349309833	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 3197: TypeError: this.tabs is undefined
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    SessionFileInternal.write@resource://app/modules/sessionstore/SessionFile.jsm:315:29
+this.SessionFile.write@resource://app/modules/sessionstore/SessionFile.jsm:76:12
+SessionSaverInternal._writeState@resource://app/modules/sessionstore/SessionSaver.jsm:259:12
+SessionSaverInternal._saveState@resource://app/modules/sessionstore/SessionSaver.jsm:230:12
+SessionSaverInternal._saveStateAsync@resource://app/modules/sessionstore/SessionSaver.jsm:243:5
+SessionSaverInternal.runDelayed/this._timeoutID<@resource://app/modules/sessionstore/SessionSaver.jsm:147:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x460043,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+.cc, line 345
+08: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+NFO	Listening on port 21950
+1560350884320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560350951620	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+[9328] WARNING: failed to create pipe: 0: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[9328] WARNING: Unable to create pipe named "14548.0.1475182497\2068371002" in client mode.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+1560351237603	geckodriver	INFO	Listening on 127.0.0.1:22319
+1560351240451	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.5BRyNJLRSumy
+1560351240485	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560351240572	geckodriver::marionette	INFO	Connecting to Marionette on localhost:22328
+1560351248171	Marionette	INFO	Listening on port 22328
+1560351252618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560351323419	Marionette	INFO	New connections will no longer be accepted
+[Child 8968] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560351369094	geckodriver	INFO	Listening on 127.0.0.1:22525
+1560351372107	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.csyu4os0cKpB
+1560351372144	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560351372231	geckodriver::marionette	INFO	Connecting to Marionette on localhost:22541
+1560351376537	Marionette	INFO	Listening on port 22541
+1560351378974	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: chrome://marionette/content/listener.js, line 1108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+1560352135618	geckodriver	INFO	Listening on 127.0.0.1:10766
+1560352138712	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.HMLINxBSb9iY
+1560352138744	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560352138798	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10774
+1560352143967	Marionette	INFO	Listening on port 10774
+1560352146356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560352207814	Marionette	INFO	New connections will no longer be accepted
+[Child 9708] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560352515589	geckodriver	INFO	Listening on 127.0.0.1:10991
+1560352518724	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.Ht7wFvyohxOo
+1560352518753	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560352518802	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11000
+1560352528358	Marionette	INFO	Listening on port 11000
+1560352531721	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1560352653940	geckodriver	INFO	Listening on 127.0.0.1:11099
+1560352656981	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.puTBAJYxN0jD
+1560352657018	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560352657057	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11109
+1560352660889	Marionette	INFO	Listening on port 11109
+1560352662629	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1560352677788	geckodriver	INFO	Listening on 127.0.0.1:11135
+1560352680854	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.h9VbwU6RrgI6
+1560352680891	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560352680930	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11143
+1560352685133	Marionette	INFO	Listening on port 11143
+1560352686817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560352717654	Marionette	INFO	New connections will no longer be accepted
+[Child 14264] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560352858009	geckodriver	INFO	Listening on 127.0.0.1:11297
+1560352861027	mozprofile::profile	INFO	Using profile path C:\windows\TEMP\rust_mozprofile.wYkDflyMoUQT
+1560352861059	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560352861090	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11305
+1560352864647	Marionette	INFO	Listening on port 11305
+1560352866278	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x46001C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 44: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object

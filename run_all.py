@@ -21,18 +21,18 @@ import unittest
 
 import sys
 import os
-current_path = os.path.dirname(os.path.abspath(__file__))  #获取当前run_all.py的绝对路径
-sys.path.append("D:\Program Files\Github\lz687_auto\common")
-# print(sys.path)
+# current_path = os.path.dirname(os.path.abspath(__file__))  #获取当前run_all.py的绝对路径
+# sys.path.append("D:\Program Files\Github\lz687_auto\common")
+# # print(sys.path)
 from common import HTMLTestRunner_cn
 
 
 #用例路径
-casePath = "D:\PycharmProjects\WebDriver\selenium_html_report\case"
-rule = "test01.py"
+casePath = "D:\Program Files\Github\lz687_auto\case"
+rule = "test_login_ddt.py"
 discover = unittest.defaultTestLoader.discover(start_dir=casePath, pattern=rule)
 
-reportPath = r"D:\PycharmProjects\WebDriver\selenium_html_report\report"+"report1.html"
+reportPath = r"D:\Program Files\Github\lz687_auto\report"+"report1.html"
 
 fp = open(reportPath, "wb")
 

@@ -1,6 +1,6 @@
 import os
 import unittest
-from selenium_html_report.pages.login_page import LoginPage,login_url
+from pages.login_page import LoginPage,login_url
 from selenium import webdriver
 import ddt
 
@@ -61,6 +61,7 @@ class LoginPageTest(unittest.TestCase):
 
     def test02(self):
         """输入用户名admin,点击登录"""
+        time.sleep(5)
         print("----------开始测试----------")
         data1 = testdates[1]
         print("测试数据：%s" % data1)
@@ -68,6 +69,7 @@ class LoginPageTest(unittest.TestCase):
 
     def test03(self):
         """输入密码hyl@qq.com，点击登陆"""
+        time.sleep(5)
         print("----------开始测试----------")
         data1 = testdates[2]
         print("测试数据：%s" % data1)

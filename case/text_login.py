@@ -1,5 +1,5 @@
 import unittest
-from selenium_html_report.pages.login_page import LoginPage,login_url
+from pages.login_page import LoginPage,login_url
 from selenium import webdriver
 
 """

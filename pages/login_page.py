@@ -2,7 +2,7 @@
 import unittest
 import time
 from selenium import webdriver
-from selenium_html_report.case.zentaologin import Base
+from case.zentaologin import Base
 
 login_url = "http://127.0.0.1:81/zentao/user-login.html"
 

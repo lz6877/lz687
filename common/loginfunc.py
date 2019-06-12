@@ -1,5 +1,4 @@
 from selenium import webdriver
-import unittest
 
 def loginFunction(driver,user="admin",pwd="hyl@qq.com"):
     driver = webdriver.Firefox()

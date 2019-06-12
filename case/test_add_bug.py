@@ -2,8 +2,8 @@ import unittest
 import time
 
 from selenium import webdriver
-from selenium_html_report.pages.add_bug_page import ZenTaoBug
-from selenium_html_report.pages.login_page import LoginPage
+from pages.add_bug_page import ZenTaoBug
+from pages.login_page import LoginPage
 
 class Test_Add_Bug(unittest.TestCase):
 
