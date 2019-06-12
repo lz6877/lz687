@@ -14,3 +14,25 @@
 1560340849442	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6124
 1560340854064	Marionette	INFO	Listening on port 6124
 1560340856056	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+iver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560341260191	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5418
+1560341266928	Marionette	INFO	Listening on port 5418
+1560341269422	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560341384123	Marionette	INFO	New connections will no longer be accepted
+[Child 10060] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+ D:\ Firefox52\firefox.exe with args []
+1560341283708	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5448
+1560341291719	Marionette	INFO	Listening on port 5448
+1560341301277	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************

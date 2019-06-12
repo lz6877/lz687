@@ -22,9 +22,9 @@ import unittest
 import sys
 import os
 current_path = os.path.dirname(os.path.abspath(__file__))  #获取当前run_all.py的绝对路径
-sys.path.append("D:\Program Files\Github\lz687_auto")
-print(sys.path)
-from lz687_auto.common import HTMLTestRunner_cn
+sys.path.append("D:\Program Files\Github\lz687_auto\common")
+# print(sys.path)
+from common import HTMLTestRunner_cn
 
 
 #用例路径
