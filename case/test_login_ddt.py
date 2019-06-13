@@ -3,6 +3,7 @@ import unittest
 from pages.login_page import LoginPage,login_url
 from selenium import webdriver
 import ddt
+import time
 
 """
 用例：

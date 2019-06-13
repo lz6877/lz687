@@ -475,3 +475,31 @@ JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 44: 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
 
 JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+river::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560353019369	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11404
+1560353023921	Marionette	INFO	Listening on port 11404
+1560353025748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560353069267	Marionette	INFO	New connections will no longer be accepted
+[Child 9700] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560353149330	geckodriver	INFO	Listening on 127.0.0.1:11551
+1560353152364	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.xyUx6bHw43DD
+1560353152401	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560353152434	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11567
+1560353156058	Marionette	INFO	Listening on port 11567
+1560353157469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560353227055	Marionette	INFO	New connections will no longer be accepted
+[Child 14628] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1560429598919	geckodriver	INFO	Listening on 127.0.0.1:27273
+1560429602081	mozprofile::profile	INFO	Using profile path C:\Users\hyl\AppData\Local\Temp\rust_mozprofile.6oRv2173AssQ
+1560429602119	geckodriver::marionette	INFO	Starting browser D:\ Firefox52\firefox.exe with args []
+1560429602194	geckodriver::marionette	INFO	Connecting to Marionette on localhost:27281
+1560429620956	Marionette	INFO	Listening on port 27281
+1560429625022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560429699084	Marionette	INFO	New connections will no longer be accepted
+[Child 7692] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143

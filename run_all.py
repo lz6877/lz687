@@ -32,7 +32,7 @@ casePath = "D:\Program Files\Github\lz687_auto\case"
 rule = "test_login_ddt.py"
 discover = unittest.defaultTestLoader.discover(start_dir=casePath, pattern=rule)
 
-reportPath = r"D:\Program Files\Github\lz687_auto\report"+"report1.html"
+reportPath = r"D:\Program Files\Github\lz687_auto\report"+r"\result.html"
 
 fp = open(reportPath, "wb")
 
